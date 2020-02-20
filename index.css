@@ -11,8 +11,8 @@ body {
 }
 
 .chart-container {
-  margin-right: 50px;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -48,8 +48,4 @@ body {
 .slider {
   width: 150px;
   height: 100px;
-}
-
-.description {
-  font-size: smaller;
 }
