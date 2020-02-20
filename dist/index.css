@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: beige;
+}
+
+.page-container {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.chart-container {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.wedge {
+  stroke: #aaa;
+  stroke-width: 1px;
+}
+
+.disease {
+  fill: lightblue;
+}
+
+.injury {
+  fill: red;
+}
+
+.other {
+  fill: black;
+}
+
+.controls-container {
+  max-width: 500px;
+  min-width: 100px;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.slider {
+  width: 150px;
+  height: 100px;
+}
+
+.description {
+  font-size: smaller;
+}
