@@ -49,3 +49,15 @@ body {
   width: 150px;
   height: 100px;
 }
+
+.minard-text {
+  max-width: 600px;
+  margin: auto;
+}
+
+.minard-container {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  background-color: ivory;
+}
